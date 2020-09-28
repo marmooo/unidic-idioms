@@ -11,7 +11,7 @@ node build.js
 ```
 
 ## License
-MIT
+BSD-3-Clause
 
 ## References
 - [苗字由来net](https://myoji-yurai.net/)
