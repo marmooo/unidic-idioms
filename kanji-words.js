@@ -138,7 +138,7 @@ function filter(idiom) {
 
 async function listup(level) {
   const idioms = {};
-  const fileReader = await Deno.open("lex.csv");
+  const fileReader = await Deno.open("lex_3_1.csv");
   for await (const line of readLines(fileReader)) {
     const arr = line.split(',');
     let idiom = arr[0];
